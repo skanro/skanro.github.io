@@ -11,7 +11,11 @@
 </title>
 
 
-<meta name="description" property="og:description" content="">
+<meta name="description" property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```|">
 
 <meta name="apple-mobile-web-app-title" content="skanro">
 
@@ -22,11 +26,29 @@
     
     <ul class="menu"><li><a href="/search/">검색</a></li><li><a href="/tags/">태그</a></li></ul>
 </nav>
-<main class="container">
-  <input placeholder="검색어를 입력해 주세요." type="text" name="searchBox" id="searchbar" class="w-100"/>
-  <div id="results"></div>
-</main>
-<script type="text/javascript" src="/js/search.js"></script>
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" >
+    <form action="https://skanro.github.io/search">
+      <input id="search-query" name="s"/>
+    </form>
+    <div id="search-results">
+     <h3>Matching pages</h3>
+    </div>
+  </div>
+</section>
+
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="https://skanro.github.io/js/search.js"></script>
 <footer class="container">
     Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a>
 </footer></body>
