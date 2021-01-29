@@ -12,7 +12,6 @@ var fuseOptions = {
     {name:"title",weight:0.8},
     {name:"contents",weight:0.5},
     {name:"tags",weight:0.3},
-    {name:"categories",weight:0.3}
   ]
 };
 
@@ -51,7 +50,7 @@ function populateResults(result){
       snippetHighlights.push(searchQuery);
     }else{
       $.each(value.matches,function(matchKey,mvalue){
-        if(mvalue.key == "tags" || mvalue.key == "categories" ){
+        if(mvalue.key == "tags" ){
           snippetHighlights.push(mvalue.value);
         }else if(mvalue.key == "contents"){
           start = mvalue.indices[0][0]-summaryInclude>0?mvalue.indices[0][0]-summaryInclude:0;
@@ -68,7 +67,7 @@ function populateResults(result){
     //pull template from hugo templarte definition
     var templateDefinition = $('#search-result-template').html();
     //replace values
-    var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet});
+    var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,snippet:snippet});
     $('#search-results').append(output);
 
     $.each(snippetHighlights,function(snipkey,snipvalue){

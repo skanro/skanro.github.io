@@ -16,12 +16,12 @@
 <meta name="apple-mobile-web-app-title" content="skanro">
 
 
-<link rel="stylesheet" type="text/css" href="/css/main.css"><body><nav class="container">
+<link rel="stylesheet" type="text/css" href="/css/main.css"><body><header class="container">
     
     <a href="/" class="brand un">skanro</a>
     
     <ul class="menu"><li><a href="/search/">검색</a></li><li><a href="/tags/">태그</a></li></ul>
-</nav>
+</header>
 <main class="container">
   <article id="post">
     <h1 class="title">블로그 첫번째 글</h1>
@@ -33,19 +33,27 @@
 
 <a href='/tags/%EA%B5%AC%EB%A6%84ide'>구름IDE</a>
 </div>
-    <div id="content"><p><a href="https://skanro.github.io">https://skanro.github.io</a></p>
+  <div id="content"><p><a href="https://skanro.github.io">https://skanro.github.io</a></p>
 <h2 id="소개">소개</h2>
 <p>이 블로그는 hugo 정적사이트생성기와 GihubPage 로 생성됩니다.<br>
 관리는 구름IDE로 하고 있습니다.<br>
 이미지는 깃허브저장소 issue 로 업로드합니다.
-아이콘은 octicons 사용.
-<del>코스모스팜 소셜댓글 사용.</del> disqus 댓글로 변경</p>
+아이콘은 octicons 사용.<br>
+<del>코스모스팜 소셜댓글 사용.</del><br>
+disqus 댓글로 변경</p>
 <h2 id="추가-예정">추가 예정</h2>
 <ul>
 <li>disqus 댓글</li>
 <li>사이드메뉴</li>
 </ul>
 </div>
+  <nav class="pagenav">
+    <a class="prev" href="https://skanro.github.io/posts/markdown/">
+      <span class="muted">이전 글</span>
+      <br>
+      <span>마크다운 문법 정리</span>
+    </a>
+  </nav>
 	<div id="comment"><div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
