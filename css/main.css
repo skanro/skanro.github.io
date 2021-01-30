@@ -6,7 +6,7 @@
     --muted-color: #545454;
 }
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,tt,
 var,u,i,center,dl,dt,dd,fieldset,form,label,legend,caption,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,
 menu,nav,output,ruby,section,summary,time,mark,audio,video,ul,ol,li { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
@@ -20,7 +20,7 @@ img { max-width: 100%; border: 1px solid var(--border-color); box-sizing: border
 pre { background: var(--border-color) !important; padding: 10px; }
 p > code { background: var(--border-color); font-size: 0.8em; padding: 2px 4px; }
 .highlight { margin: 0 0 16px; font-size: 0.8em; }
-li { padding-left: 20px; list-style-position: inside; }
+li { list-style-position: inside; }
 table { margin: 0 0 16px; border-spacing: 0px; border-collapse: collapse; }
 th, td { padding: 5px; border: 1px solid #e1e4e8; }
 tr:nth-child(even) { background: var(--secondary-color) }
@@ -36,6 +36,7 @@ header {
 
 .brand { font-size: 1.3em; font-weight: bolder; color: var(--link-color); }
 .menu { display: flex; justify-content: space-between; list-style: none; }
+.menu li { margin-left: 20px; }
 .menu li a { color: var(--link-color); font-size: 0.9em; }
 
 main { padding-top: 60px; padding-bottom: 50px; min-height: calc(100vh - 90px); }
@@ -72,6 +73,8 @@ footer a { font-size: 0.9em; }
 
 #search-results { margin: 20px 0; }
 #search-results li { padding: 15px 0; list-style: none; border-top: 1px solid #f6f6f6; }
+
+.terms-tags a { margin-right: 10px }
 
 @media screen and (max-width: 880px) { 
     .container { padding: 10px 30px; } 

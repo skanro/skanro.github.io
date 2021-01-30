@@ -6,7 +6,16 @@
     <description>Recent content in hugo on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Fri, 22 Jan 2021 16:50:58 +0900</lastBuildDate><atom:link href="https://skanro.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 21:44:03 +0900</lastBuildDate><atom:link href="https://skanro.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>정적사이트에서 파일업로드하기</title>
+      <link>https://skanro.github.io/posts/github-upload/</link>
+      <pubDate>Sat, 30 Jan 2021 21:44:03 +0900</pubDate>
+      
+      <guid>https://skanro.github.io/posts/github-upload/</guid>
+      <description>위 방법처럼 업로드하면 마크다운으로 변환된 이미지를 복사해서 바로 붙여넣기 할 수 있다. 어떤 깃허브 저장소 이슈라도 상관없지만 블로그에 업로드할겸 hugo 프로젝트 저</description>
+    </item>
+    
     <item>
       <title>구름IDE 에서 hugo server </title>
       <link>https://skanro.github.io/posts/goormide-hugo/</link>
