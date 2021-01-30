@@ -21,6 +21,7 @@ pre { background: var(--border-color) !important; padding: 10px; }
 p > code { background: var(--border-color); font-size: 0.8em; padding: 2px 4px; }
 .highlight { margin: 0 0 16px; font-size: 0.8em; }
 li { list-style-position: inside; }
+li ul>li { padding-left: 20px; }
 table { margin: 0 0 16px; border-spacing: 0px; border-collapse: collapse; }
 th, td { padding: 5px; border: 1px solid #e1e4e8; }
 tr:nth-child(even) { background: var(--secondary-color) }
