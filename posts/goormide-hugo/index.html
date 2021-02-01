@@ -16,22 +16,25 @@
 <meta name="apple-mobile-web-app-title" content="skanro">
 
 
-<link rel="stylesheet" type="text/css" href="/css/main.css"><body><header class="container">
-    
-    <a href="/" class="brand un">skanro</a>
-    
-    <ul class="menu"><li><a href="/"></a></li><li><a href="/posts/">Posts</a></li><li><a href="/search/">Search</a></li></ul>
+<link rel="stylesheet" type="text/css" href="/css/main.css"><body><header>
+    <div class="header container">
+        
+        <a href="/" class="brand un">skanro</a>
+        
+        <ul class="menu"><li><a href="/"></a></li><li><a href="/posts/">Posts</a></li><li><a href="/search/">Search</a></li></ul>
+    </div>
 </header>
-<main class="container">
- 	<article id="post">
- 	   <h1 class="title">구름IDE 에서 hugo server </h1>
- 	   <p class="date">2021년 01월 22일</p> 
- 	   <div class="tags">
+<main>
+	<div class="container">
+		<article id="post">
+			<h1 class="title">구름IDE 에서 hugo server </h1>
+			<p class="date">2021년 01월 22일</p> 
+			<div class="tags">
 <a href='/tags/hugo'>hugo</a>
 
 <a href='/tags/%EA%B5%AC%EB%A6%84ide'>구름ide</a>
 </div>
- 	   <div id="content"><p><code>hugo server</code> 는 Hugo 사이트를 구축하는 자체 웹서버다. 사이트를 수정하고 변경사항을 미리볼때 자주 사용하는데 구름ide 에서 사용하게 되면 웹 서버가 열리지 않는다.</p>
+			<div id="content"><p><code>hugo server</code> 는 Hugo 사이트를 구축하는 자체 웹서버다. 사이트를 수정하고 변경사항을 미리볼때 자주 사용하는데 구름ide 에서 사용하게 되면 웹 서버가 열리지 않는다.</p>
 <p><img src="https://user-images.githubusercontent.com/16831696/105624553-d6992280-5e65-11eb-9ca7-759501822b7f.png" alt="이미지 12"></p>
 <h2 id="해결방법">해결방법</h2>
 <p>nodejs로 컨테이너 생성시</p>
@@ -40,7 +43,7 @@
 포트랑 <code>-p 3000</code> 이랑 맞추면 된다.</p>
 <p><img src="https://user-images.githubusercontent.com/16831696/105624552-d436c880-5e65-11eb-8b74-9adce2416824.png" alt="이미지 13"></p>
 </div>
- 	   <div id="comment"><div id="disqus_thread"></div>
+			<div id="comment"><div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -60,9 +63,12 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
- 	</article>
+		 </article>
+	</div>
 </main>
-<footer class="container">
-    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a>
+<footer>
+    <div class="container">
+        Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a>
+    </div>
 </footer></body>
 </html>

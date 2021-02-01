@@ -16,22 +16,25 @@
 <meta name="apple-mobile-web-app-title" content="skanro">
 
 
-<link rel="stylesheet" type="text/css" href="/css/main.css"><body><header class="container">
-    
-    <a href="/" class="brand un">skanro</a>
-    
-    <ul class="menu"><li><a href="/"></a></li><li><a href="/posts/">Posts</a></li><li><a href="/search/">Search</a></li></ul>
+<link rel="stylesheet" type="text/css" href="/css/main.css"><body><header>
+    <div class="header container">
+        
+        <a href="/" class="brand un">skanro</a>
+        
+        <ul class="menu"><li><a href="/"></a></li><li><a href="/posts/">Posts</a></li><li><a href="/search/">Search</a></li></ul>
+    </div>
 </header>
-<main class="container">
- 	<article id="post">
- 	   <h1 class="title">정적사이트에서 파일/이미지 업로드하기</h1>
- 	   <p class="date">2021년 01월 30일</p> 
- 	   <div class="tags">
+<main>
+	<div class="container">
+		<article id="post">
+			<h1 class="title">정적사이트에서 파일/이미지 업로드하기</h1>
+			<p class="date">2021년 01월 30일</p> 
+			<div class="tags">
 <a href='/tags/github'>github</a>
 
 <a href='/tags/hugo'>hugo</a>
 </div>
- 	   <div id="content"><p><img src="https://user-images.githubusercontent.com/16831696/106356566-f0de6f00-6343-11eb-81ab-7fd7ab728af5.gif" alt="dragging_images"></p>
+			<div id="content"><p><img src="https://user-images.githubusercontent.com/16831696/106356566-f0de6f00-6343-11eb-81ab-7fd7ab728af5.gif" alt="dragging_images"></p>
 <p>위 방법처럼 업로드하면 마크다운으로 변환된 이미지를 복사해서 바로 붙여넣기 할 수 있다.</p>
 <p><img src="https://user-images.githubusercontent.com/16831696/106360312-22af0000-635b-11eb-82d5-4a5cd677e6a1.png" alt="이미지 9"></p>
 <p>어떤 깃허브 저장소 이슈라도 상관없지만 블로그에 업로드할겸 hugo 프로젝트 저장소에 이슈를 올려 글을 남긴다. 이슈를 올리지않고 지워도 업로드된 이미지가 사라지지는 않는다.</p>
@@ -46,7 +49,7 @@
 </ul>
 <p>위는 업로드 가능한 파일 형식들이다.</p>
 </div>
- 	   <div id="comment"><div id="disqus_thread"></div>
+			<div id="comment"><div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -66,9 +69,12 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
- 	</article>
+		 </article>
+	</div>
 </main>
-<footer class="container">
-    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a>
+<footer>
+    <div class="container">
+        Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a>
+    </div>
 </footer></body>
 </html>
