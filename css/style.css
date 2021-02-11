@@ -1,0 +1,30 @@
+html { font-size: 14px; }
+body { margin: 0; background: #f6f6f6; color: #586069; }
+a { text-decoration: none; color: #757575; }
+img { max-width: 100%; border: 1px solid #f6f6f6; box-sizing: border-box; }
+
+h1 { margin: 0 0 16px; }
+h2 { margin: 0 0 14px; }
+p { margin: 0 0 14px; }
+
+main { margin: 0 20px; }
+footer { display: flex; height: 50px; justify-content: center; align-items: center; }
+
+.container { margin: 0 auto; }
+.header { display: flex; justify-content: space-between; height: 50px; align-items: center; background: #fff; padding: 0 30px; }
+.brand { font-size: large; font-weight: bolder; }
+.menu { display: flex; list-style: none; }
+.menu li { margin-left: 20px; }
+
+.masonry { column-width: 240px; column-gap: 20px; width: 90%; max-width: 1120px; margin: 20px auto;}
+article { background: #fff; }
+
+#list { display: inline-block; column-break-inside: avoid; margin-bottom: 20px; padding: 20px; }
+#list .title { font-size: 1.2em; font-weight: bold }
+#list .date { color: #757575; font-size: 0.9em; }
+#list .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
+
+#post { max-width: 800px; margin: 20px auto; padding: 30px; }
+#post .title { font-size: 1.5em; font-weight: bold; }
+#post .date { color: #757575; font-size: 0.9em; }
+#post .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
