@@ -1,11 +1,13 @@
-html { font-size: 14px; }
+html { font-size: 14px; line-height: 1.6; }
 body { margin: 0; background: #f6f6f6; color: #586069; }
 a { text-decoration: none; color: #757575; }
 img { max-width: 100%; border: 1px solid #f6f6f6; box-sizing: border-box; }
 
 h1 { margin: 0 0 16px; }
-h2 { margin: 0 0 14px; }
+h2 { margin: 0 0 14px; font-size: 1.2em; }
+h3 { margin: 0 0 14px; font-size: 1.1em; }
 p { margin: 0 0 14px; }
+pre { padding: 14px; font-size: 0.9em; overflow: auto; }
 
 main { margin: 0 20px; }
 footer { display: flex; height: 50px; justify-content: center; align-items: center; }
@@ -28,3 +30,6 @@ article { background: #fff; }
 #post .title { font-size: 1.5em; font-weight: bold; }
 #post .date { color: #757575; font-size: 0.9em; }
 #post .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
+
+#content { margin: 16px 0; }
+#content p > code { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; }
