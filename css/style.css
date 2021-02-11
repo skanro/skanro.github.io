@@ -22,7 +22,7 @@ footer a { color: #525252; }
 .masonry { column-width: 240px; column-gap: 20px; width: 90%; max-width: 1120px; margin: 20px auto;}
 article { background: #fff; }
 
-#list { display: inline-block; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; margin-bottom: 20px; padding: 20px; min-width: 225px; }
+#list { display: block; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; margin-bottom: 20px; padding: 20px; }
 #list .title { font-size: 1.2em; font-weight: bold }
 #list .date { color: #757575; font-size: 0.9em; }
 #list .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
