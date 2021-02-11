@@ -11,6 +11,7 @@ pre { padding: 14px; font-size: 0.9em; overflow: auto; }
 
 main { margin: 0 20px; }
 footer { display: flex; height: 50px; justify-content: center; align-items: center; }
+footer a { color: #525252; }
 
 .container { margin: 0 auto; }
 .header { display: flex; justify-content: space-between; height: 50px; align-items: center; background: #fff; padding: 0 30px; }
