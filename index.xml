@@ -13,7 +13,7 @@
       <pubDate>Fri, 12 Feb 2021 04:20:42 +0900</pubDate>
       
       <guid>https://skanro.github.io/posts/hugo-image-caption/</guid>
-      <description>hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다. ![텍스트](이미지주소 &amp;#34;타이틀&amp;#34;) 위와 같이</description>
+      <description>마크다운 이미지 캡션 hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다. ![텍스트](이미지주소 &amp;#34;타이틀&amp;</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Feb 2021 22:34:19 +0900</pubDate>
       
       <guid>https://skanro.github.io/posts/hugo-windows/</guid>
-      <description>hugo release Git 다운로드</description>
+      <description>hugo 다운로드 hugo release Git 다운로드</description>
     </item>
     
     <item>

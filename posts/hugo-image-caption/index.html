@@ -21,14 +21,14 @@ if (!doNotTrack) {
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     
-    <meta name="description" property="og:description" content="hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다. ![텍스트](이미지주소 &amp;#34;타이틀&amp;#34;) 위와 같이">
+    <meta name="description" property="og:description" content="마크다운 이미지 캡션 hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다. ![텍스트](이미지주소 &amp;#34;타이틀&amp;">
     
 
     
     
     <title>Hugo 이미지 캡션 넣기 - skanro</title>
 </head><body><header>
-    <div class="header container">
+    <div class="header">
         
         <a href="/" class="brand un">skanro</a>
         
@@ -38,11 +38,24 @@ if (!doNotTrack) {
     <article id="post" class="container">
         <h1 class="title">Hugo 이미지 캡션 넣기</h1>
         <p class="date">2021년 02월 12일</p> 
-        <div class="tags"></div>
-        <div id="content"><p>hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다.</p>
+        <div class="tags">
+<a href='/tags/hugo'>hugo</a>
+
+<a href='/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80'>이미지</a>
+
+<a href='/tags/%EC%BA%A1%EC%85%98'>캡션</a>
+</div>
+        <div id="content"><h2 id="마크다운-이미지-캡션">마크다운 이미지 캡션</h2>
+<p>hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">![<span style="color:#062873;font-weight:bold">텍스트</span>](<span style="color:#4070a0">이미지주소 &#34;타이틀&#34;</span>)
-</code></pre></div><p>위와 같이 이미지에 타이틀 속성을 넣을 수 있다.<br>
-<code>layouts\_default\_markup\render-image.html</code> 경로에 파일을 만들고 아래 내용 붙여넣기.</p>
+</code></pre></div><p>
+  <figure>
+    <img src="https://user-images.githubusercontent.com/16831696/107706270-61ea3300-6d03-11eb-8205-2693880a8fd2.jpg" alt="apple-3981097_1280">
+    <figcaption>타이틀 캡션 테스트 텍스트</figcaption>
+  </figure>
+</p>
+<p>위와 같이 이미지에 타이틀 속성을 넣을 수 있다.</p>
+<h2 id="render_imagehtml">render_image.html</h2>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ if .Title }}
   &lt;<span style="color:#062873;font-weight:bold">figure</span>&gt;
     &lt;<span style="color:#062873;font-weight:bold">img</span> <span style="color:#4070a0">src</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Destination | safeURL }}&#34;</span> <span style="color:#4070a0">alt</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Text }}&#34;</span>&gt;
@@ -51,7 +64,8 @@ if (!doNotTrack) {
 {{ else }}
   &lt;<span style="color:#062873;font-weight:bold">img</span> <span style="color:#4070a0">src</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Destination | safeURL }}&#34;</span> <span style="color:#4070a0">alt</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Text }}&#34;</span>&gt;
 {{ end }}
-</code></pre></div></div>
+</code></pre></div><p><code>layouts\_default\_markup\render-image.html</code> 경로에 위 내용으로 파일을 생성한다.</p>
+</div>
         <div id="comment"><div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {

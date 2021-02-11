@@ -21,20 +21,32 @@
   </url>
   
   <url>
+    <loc>https://skanro.github.io/tags/hugo/</loc>
+    <lastmod>2021-02-12T04:20:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
     <loc>https://skanro.github.io/posts/hugo-image-caption/</loc>
     <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/hugo/</loc>
-    <lastmod>2021-02-01T22:34:19+09:00</lastmod>
+    <loc>https://skanro.github.io/tags/</loc>
+    <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/</loc>
-    <lastmod>2021-02-01T22:34:19+09:00</lastmod>
+    <loc>https://skanro.github.io/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</loc>
+    <lastmod>2021-02-12T04:20:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://skanro.github.io/tags/%EC%BA%A1%EC%85%98/</loc>
+    <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   

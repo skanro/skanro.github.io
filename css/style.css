@@ -4,6 +4,8 @@ a { text-decoration: none; color: #757575; }
 
 img { margin: 0 0 14px; max-width: 100%; height: auto; border: 1px solid #f6f6f6; box-sizing: border-box; }
 figure { margin: 0 0 14px; }
+figcaption { font-size: 0.85em; text-align: center; color: #718096; }
+figure > img { margin: 0; }
 ul, ol { margin: 0 0 14px; }
 
 h1 { margin: 0 0 16px; }
@@ -16,13 +18,18 @@ main { margin: 0 20px; }
 footer { display: flex; height: 50px; justify-content: center; align-items: center; }
 footer a { color: #525252; }
 
-.container { margin: 0 auto; }
+.container { margin: 20px auto; max-width: 800px; }
 .header { display: flex; justify-content: space-between; height: 50px; align-items: center; background: #fff; padding: 0 30px; }
 .brand { font-size: large; font-weight: bolder; }
-.menu { display: flex; list-style: none; }
+.menu { display: flex; list-style: none; margin: 0; padding: 0; }
 .menu li { margin-left: 20px; }
 
 .masonry { column-width: 240px; column-gap: 20px; width: 90%; max-width: 1120px; margin: 20px auto;}
+
+.terms-tags { padding: 30px; }
+.terms-tags a { display: inline-block; word-break: keep-all; padding: 2px 5px; margin: 0 5px 5px 0; }
+.terms-tags span { display: inline-block; background: #ddd; border-radius: 50%; width: 17px; height: 17px; text-align: center; font-size: 0.8em; }
+
 article { background: #fff; }
 
 #list { display: block; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; margin-bottom: 20px; padding: 20px; }
@@ -30,7 +37,7 @@ article { background: #fff; }
 #list .date { color: #757575; font-size: 0.9em; }
 #list .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
 
-#post { max-width: 800px; margin: 20px auto; padding: 30px; }
+#post { margin: 20px auto; padding: 30px; }
 #post .title { font-size: 1.5em; font-weight: bold; }
 #post .date { color: #757575; font-size: 0.9em; }
 #post .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
