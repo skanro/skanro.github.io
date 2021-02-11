@@ -1,7 +1,7 @@
 html { font-size: 14px; line-height: 1.6; }
 body { margin: 0; background: #f6f6f6; color: #586069; }
 a { text-decoration: none; color: #757575; }
-img { max-width: 100%; border: 1px solid #f6f6f6; box-sizing: border-box; }
+img { max-width: 100%; height: auto; border: 1px solid #f6f6f6; box-sizing: border-box; }
 
 h1 { margin: 0 0 16px; }
 h2 { margin: 0 0 14px; font-size: 1.2em; }
@@ -21,7 +21,7 @@ footer { display: flex; height: 50px; justify-content: center; align-items: cent
 .masonry { column-width: 240px; column-gap: 20px; width: 90%; max-width: 1120px; margin: 20px auto;}
 article { background: #fff; }
 
-#list { display: inline-block; column-break-inside: avoid; margin-bottom: 20px; padding: 20px; }
+#list { display: inline-block; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; margin-bottom: 20px; padding: 20px; min-width: 225px; }
 #list .title { font-size: 1.2em; font-weight: bold }
 #list .date { color: #757575; font-size: 0.9em; }
 #list .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
@@ -32,4 +32,5 @@ article { background: #fff; }
 #post .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
 
 #content { margin: 16px 0; }
-#content p > code { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; }
+#content p > code { background: #d3e1e4; padding: 2px 5px; font-size: 0.9em; }
+#content a {text-decoration: underline;}
