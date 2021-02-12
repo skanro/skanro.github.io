@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>한글 on skanro</title>
-    <link>https://skanro.github.io/tags/%ED%95%9C%EA%B8%80/</link>
+    <link>https://skanro.kr/tags/%ED%95%9C%EA%B8%80/</link>
     <description>Recent content in 한글 on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Fri, 12 Feb 2021 18:26:21 +0900</lastBuildDate><atom:link href="https://skanro.github.io/tags/%ED%95%9C%EA%B8%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 18:26:21 +0900</lastBuildDate><atom:link href="https://skanro.kr/tags/%ED%95%9C%EA%B8%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>디스커스 한글설정하기</title>
-      <link>https://skanro.github.io/posts/disqus-korean/</link>
+      <link>https://skanro.kr/posts/disqus-korean/</link>
       <pubDate>Fri, 12 Feb 2021 18:26:21 +0900</pubDate>
       
-      <guid>https://skanro.github.io/posts/disqus-korean/</guid>
+      <guid>https://skanro.kr/posts/disqus-korean/</guid>
       <description>디스커스 한글 설정방법이 바뀌어서 찾아보았다. https://jungjoongi.com/2020/12/11/disaus-korean-setting2/ 언어설정 페이지에서 F12 개발자모드, Ctrl+Shift+F 로 forums/update 검색 3번 js 파일 formatted 하기 Ctrl+F 로 Oa.a.call(t &amp;amp;&amp;amp; t.useInternal ? &amp;quot;internal/forums/update&amp;quot; : &amp;quot;forums/update&amp;quot; 검색 n.props.selection.forum &amp;amp;&amp;amp; 부분에 브레이</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>캡션 on skanro</title>
-    <link>https://skanro.github.io/tags/%EC%BA%A1%EC%85%98/</link>
+    <link>https://skanro.kr/tags/%EC%BA%A1%EC%85%98/</link>
     <description>Recent content in 캡션 on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Fri, 12 Feb 2021 04:20:42 +0900</lastBuildDate><atom:link href="https://skanro.github.io/tags/%EC%BA%A1%EC%85%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 04:20:42 +0900</lastBuildDate><atom:link href="https://skanro.kr/tags/%EC%BA%A1%EC%85%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo 이미지 캡션 넣기</title>
-      <link>https://skanro.github.io/posts/hugo-image-caption/</link>
+      <link>https://skanro.kr/posts/hugo-image-caption/</link>
       <pubDate>Fri, 12 Feb 2021 04:20:42 +0900</pubDate>
       
-      <guid>https://skanro.github.io/posts/hugo-image-caption/</guid>
+      <guid>https://skanro.kr/posts/hugo-image-caption/</guid>
       <description>마크다운 이미지 캡션 hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다. ![텍스트](이미지주소 &amp;#34;타이틀&amp;</description>
     </item>
     

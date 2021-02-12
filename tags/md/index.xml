@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>md on skanro</title>
-    <link>https://skanro.github.io/tags/md/</link>
+    <link>https://skanro.kr/tags/md/</link>
     <description>Recent content in md on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Dec 2020 18:28:54 +0900</lastBuildDate><atom:link href="https://skanro.github.io/tags/md/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 18:28:54 +0900</lastBuildDate><atom:link href="https://skanro.kr/tags/md/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>마크다운 문법 정리</title>
-      <link>https://skanro.github.io/posts/markdown/</link>
+      <link>https://skanro.kr/posts/markdown/</link>
       <pubDate>Thu, 03 Dec 2020 18:28:54 +0900</pubDate>
       
-      <guid>https://skanro.github.io/posts/markdown/</guid>
+      <guid>https://skanro.kr/posts/markdown/</guid>
       <description>마크다운 문법정리와 이 블로그에서 사용할 스타일 미리보기. 제목 Header &amp;lt;h1&amp;gt; 부터 &amp;lt;h6&amp;gt; 까지 변환 # 제목 h1 ## 제목 h2 ### 제목 h3 #### 제목 h4 ##### 제목 h5 ###### 제목 h6 이 블로그 본문에는 &amp;lt;h2&amp;gt;</description>
     </item>
     

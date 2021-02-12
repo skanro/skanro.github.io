@@ -3,163 +3,163 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://skanro.github.io/</loc>
+    <loc>https://skanro.kr/</loc>
     <lastmod>2021-02-12T18:26:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/</loc>
+    <loc>https://skanro.kr/posts/</loc>
     <lastmod>2021-02-12T18:26:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/search/</loc>
+    <loc>https://skanro.kr/search/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/disqus/</loc>
+    <loc>https://skanro.kr/tags/disqus/</loc>
     <lastmod>2021-02-12T18:26:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/</loc>
+    <loc>https://skanro.kr/tags/</loc>
     <lastmod>2021-02-12T18:26:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/disqus-korean/</loc>
+    <loc>https://skanro.kr/posts/disqus-korean/</loc>
     <lastmod>2021-02-12T18:26:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%ED%95%9C%EA%B8%80/</loc>
+    <loc>https://skanro.kr/tags/%ED%95%9C%EA%B8%80/</loc>
     <lastmod>2021-02-12T18:26:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/hugo/</loc>
+    <loc>https://skanro.kr/tags/hugo/</loc>
     <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/hugo-image-caption/</loc>
+    <loc>https://skanro.kr/posts/hugo-image-caption/</loc>
     <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</loc>
+    <loc>https://skanro.kr/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</loc>
     <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%EC%BA%A1%EC%85%98/</loc>
+    <loc>https://skanro.kr/tags/%EC%BA%A1%EC%85%98/</loc>
     <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/windows10/</loc>
+    <loc>https://skanro.kr/tags/windows10/</loc>
     <lastmod>2021-02-01T22:34:19+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/hugo-windows/</loc>
+    <loc>https://skanro.kr/posts/hugo-windows/</loc>
     <lastmod>2021-02-01T22:34:19+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/github/</loc>
+    <loc>https://skanro.kr/tags/github/</loc>
     <lastmod>2021-01-30T21:44:03+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/github-upload/</loc>
+    <loc>https://skanro.kr/posts/github-upload/</loc>
     <lastmod>2021-01-30T21:44:03+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/comment/</loc>
+    <loc>https://skanro.kr/tags/comment/</loc>
     <lastmod>2021-01-24T14:59:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/cosmosfarm-comment/</loc>
+    <loc>https://skanro.kr/posts/cosmosfarm-comment/</loc>
     <lastmod>2021-01-24T14:59:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%EB%8C%93%EA%B8%80/</loc>
+    <loc>https://skanro.kr/tags/%EB%8C%93%EA%B8%80/</loc>
     <lastmod>2021-01-24T14:59:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%EC%BD%94%EC%8A%A4%EB%AA%A8%EC%8A%A4-%ED%8C%9C/</loc>
+    <loc>https://skanro.kr/tags/%EC%BD%94%EC%8A%A4%EB%AA%A8%EC%8A%A4-%ED%8C%9C/</loc>
     <lastmod>2021-01-24T14:59:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%EA%B5%AC%EB%A6%84ide/</loc>
+    <loc>https://skanro.kr/tags/%EA%B5%AC%EB%A6%84ide/</loc>
     <lastmod>2021-01-22T16:50:58+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/goormide-hugo/</loc>
+    <loc>https://skanro.kr/posts/goormide-hugo/</loc>
     <lastmod>2021-01-22T16:50:58+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/markdown/</loc>
+    <loc>https://skanro.kr/tags/markdown/</loc>
     <lastmod>2020-12-03T18:28:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/md/</loc>
+    <loc>https://skanro.kr/tags/md/</loc>
     <lastmod>2020-12-03T18:28:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/</loc>
+    <loc>https://skanro.kr/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/</loc>
     <lastmod>2020-12-03T18:28:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/markdown/</loc>
+    <loc>https://skanro.kr/posts/markdown/</loc>
     <lastmod>2020-12-03T18:28:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/</loc>
+    <loc>https://skanro.kr/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/</loc>
     <lastmod>2020-11-30T00:46:41+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
-    <loc>https://skanro.github.io/posts/first-post/</loc>
+    <loc>https://skanro.kr/posts/first-post/</loc>
     <lastmod>2020-11-30T00:46:41+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
