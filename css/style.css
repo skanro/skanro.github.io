@@ -36,6 +36,7 @@ article { background: #fff; }
 #list .title { font-size: 1.2em; font-weight: bold }
 #list .date { color: #757575; font-size: 0.9em; }
 #list .tags a { background: #f6f6f6; padding: 2px 5px; font-size: 0.9em; color: #545454; }
+#list .summary a { word-break : break-all }
 
 #post { margin: 20px auto; padding: 30px; }
 #post .title { font-size: 1.5em; font-weight: bold; }
