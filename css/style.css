@@ -2,9 +2,9 @@ html { font-size: 14px; line-height: 1.6; }
 body { margin: 0; background: #f6f6f6; color: #586069; }
 a { text-decoration: none; color: #757575; }
 
-img { margin: 0 0 14px; max-width: 100%; height: auto; border: 1px solid #f6f6f6; box-sizing: border-box; }
+img { max-width: 100%; height: auto; border: 1px solid #f6f6f6; box-sizing: border-box; }
 figure { margin: 0 0 14px; }
-figcaption { font-size: 0.85em; text-align: center; color: #718096; }
+figcaption { font-size: 0.85em; text-align: center; }
 figure > img { margin: 0; }
 ul, ol { margin: 0 0 14px; }
 
