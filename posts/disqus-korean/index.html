@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-188582697-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    
+    <meta name="description" property="og:description" content="디스커스 한글 설정방법이 바뀌어서 찾아보았다. https://jungjoongi.com/2020/12/11/disaus-korean-setting2/ 언어설정 페이지에서 F12 개발자모드, Ctrl&#43;Shift&#43;F 로 forums/update 검색 3번 js 파일 formatted 하기 Ctrl&#43;F 로 Oa.a.call(t &amp;amp;&amp;amp; t.useInternal ? &amp;quot;internal/forums/update&amp;quot; : &amp;quot;forums/update&amp;quot; 검색 n.props.selection.forum &amp;amp;&amp;amp; 부분에 브레이">
+    
+
+    
+    
+    <title>디스커스 한글설정하기 - skanro</title>
+</head><body><header>
+    <div class="header">
+        
+        <a href="/" class="brand un">skanro</a>
+        
+        <ul class="menu"><li><a href="/posts/">Posts</a></li><li><a href="/tags/">Tags</a></li><li><a href="/search/">Search</a></li></ul>
+    </div>
+</header><main>
+    <article id="post" class="container">
+        <h1 class="title">디스커스 한글설정하기</h1>
+        <p class="date">2021년 02월 12일</p> 
+        <div class="tags">
+<a href='/tags/disqus'>disqus</a>
+
+<a href='/tags/%ED%95%9C%EA%B8%80'>한글</a>
+</div>
+        <div id="content"><p>디스커스 한글 설정방법이 바뀌어서 찾아보았다.<br>
+<a href="https://jungjoongi.com/2020/12/11/disaus-korean-setting2/">https://jungjoongi.com/2020/12/11/disaus-korean-setting2/</a></p>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/107753327-4a429700-6d63-11eb-8575-06af519d77b0.png" alt="이미지 2">
+</p>
+<p>언어설정 페이지에서 <strong>F12</strong> 개발자모드, <strong>Ctrl+Shift+F</strong> 로 <code>forums/update</code> 검색<br>
+3번 js 파일 formatted 하기</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/107753329-4b73c400-6d63-11eb-9244-5e3b47fe3e71.png" alt="이미지 3">
+</p>
+<p><strong>Ctrl+F</strong> 로 <code>Oa.a.call(t &amp;&amp; t.useInternal ? &quot;internal/forums/update&quot; : &quot;forums/update&quot;</code> 검색<br>
+<code>n.props.selection.forum &amp;&amp;</code> 부분에 브레이크 포인트 걸기.</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/107753330-4c0c5a80-6d63-11eb-9808-8e5da7d88082.png" alt="이미지 5">
+</p>
+<p>언어 설정 페이지에서 아무언어 선택후 <strong>Save</strong></p>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/107753332-4c0c5a80-6d63-11eb-8ef0-3bb52eea927b.png" alt="이미지 6">
+</p>
+<p>오른쪽 탭에서 <code>translationLanguage : &quot;ko&quot;</code> 로 바꿔주고 변경된 값을 9번 버튼으로 전송.</p>
+</div>
+        <div id="comment"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "skanro" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
+     </article>
+</main>
+<footer>
+    <span>Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a></span>
+</footer></body>
+</html>
