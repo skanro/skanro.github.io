@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-188582697-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    
+    <meta name="description" property="og:description" content="도메인 레코드 설정 나는 호스팅케이알 에서 도메인을 등록했다. 서브도메인 레코드타입 값 www CNAME 사용자이름.github.io 공백 or @ A 185.199.108.153 공백 or @ A 185.199.109.153 공백 or">
+    
+
+    
+    
+    <title>깃허브페이지 개인도메인 연결하기 - skanro</title>
+</head><body><header>
+    <div class="header">
+        
+        <a href="/" class="brand un">skanro</a>
+        
+        <ul class="menu"><li><a href="/posts/">Posts</a></li><li><a href="/tags/">Tags</a></li><li><a href="/search/">Search</a></li></ul>
+    </div>
+</header><main>
+    <article id="post" class="container">
+        <h1 class="title">깃허브페이지 개인도메인 연결하기</h1>
+        <p class="date">2021년 02월 13일</p> 
+        <div class="tags">
+<a href='/tags/%EA%B9%83%ED%97%88%EB%B8%8C'>깃허브</a>
+
+<a href='/tags/%EB%8F%84%EB%A9%94%EC%9D%B8'>도메인</a>
+</div>
+        <div id="content"><h2 id="도메인-레코드-설정">도메인 레코드 설정</h2>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/107847595-4c265c00-6e30-11eb-8849-b5e008fd76db.png" alt="이미지 1">
+</p>
+<p>나는 <a href="https://www.hosting.kr/" target="_blank" rel="noopener">호스팅케이알</a> 에서 도메인을 등록했다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">서브도메인</th>
+<th style="text-align:center">레코드타입</th>
+<th style="text-align:center">값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">www</td>
+<td style="text-align:center">CNAME</td>
+<td style="text-align:center">사용자이름.github.io</td>
+</tr>
+<tr>
+<td style="text-align:center">공백 or @</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">185.199.108.153</td>
+</tr>
+<tr>
+<td style="text-align:center">공백 or @</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">185.199.109.153</td>
+</tr>
+<tr>
+<td style="text-align:center">공백 or @</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">185.199.110.153</td>
+</tr>
+<tr>
+<td style="text-align:center">공백 or @</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">185.199.111.153</td>
+</tr>
+</tbody>
+</table>
+<h2 id="깃허브페이지-cname-파일생성">깃허브페이지 CNAME 파일생성</h2>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/107847687-ebe3ea00-6e30-11eb-988f-05437efb9f46.png" alt="이미지 4">
+</p>
+<p>Custom Domain 란에 구입한 도메인을 저장해서 CNAME 파일 생성.</p>
+<blockquote>
+<p>Your site is published at <a href="https://skanro.kr">https://skanro.kr</a></p>
+</blockquote>
+<p>Enforce https 는 위 알림이 뜨면 체크.</p>
+<p>완전히 적용되는데 시간이 걸린다.</p>
+</div>
+        <div id="comment"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "skanro" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
+     </article>
+</main>
+<footer>
+    <span>Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a></span>
+</footer></body>
+</html>
