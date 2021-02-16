@@ -13,7 +13,7 @@
       <pubDate>Fri, 12 Feb 2021 04:20:42 +0900</pubDate>
       
       <guid>https://skanro.kr/posts/hugo-image-caption/</guid>
-      <description>마크다운 이미지 캡션 hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다. ![텍스트](이미지주소 &amp;#34;타이틀&amp;</description>
+      <description>마크다운 이미지 캡션 hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다. !</description>
     </item>
     
   </channel>
