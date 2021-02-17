@@ -13,7 +13,7 @@
       <pubDate>Fri, 22 Jan 2021 16:50:58 +0900</pubDate>
       
       <guid>https://skanro.kr/posts/goormide-hugo/</guid>
-      <description>hugo server 는 Hugo 사이트를 구축하는 자체 웹서버다. 사이트를 수정하고 변경사항을 미리볼때 자주 사용하는데 구름ide 에서</description>
+      <description>hugo server 는 Hugo 사이트를 구축하는 자체 웹서버다. 사이트를 수정하고 변경사항을 미리볼때 자주 사용하는데 구름ide 에서 사용하게 되면 웹 서버가 열리지 않는다. 해결방</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Mon, 30 Nov 2020 00:46:41 +0900</pubDate>
       
       <guid>https://skanro.kr/posts/first-post/</guid>
-      <description>https://skanro.github.io https://skanro.kr 커스텀 도메인 연결 소개 이 블로그는 hugo 정적사이트생성기와 GihubPage 로 생성됩니다. 관리는 구름IDE로 하고 있습니다</description>
+      <description>https://skanro.github.io https://skanro.kr 커스텀 도메인 연결 소개 이 블로그는 hugo 정적사이트생성기와 GihubPage 로 생성됩니다. 관리는 구름IDE로 하고 있습니다. 이미지는 깃허브저장소 issue 로 업로드합니다.</description>
     </item>
     
   </channel>

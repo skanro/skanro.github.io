@@ -13,7 +13,7 @@
       <pubDate>Thu, 03 Dec 2020 18:28:54 +0900</pubDate>
       
       <guid>https://skanro.kr/posts/markdown/</guid>
-      <description>마크다운 문법정리와 이 블로그에서 사용할 스타일 미리보기. 제목 Header &amp;lt;h1&amp;gt; 부터 &amp;lt;h6&amp;gt; 까지 변환 # 제목 h1 ## 제목 h2 ### 제목 h3 ####</description>
+      <description>마크다운 문법정리와 이 블로그에서 사용할 스타일 미리보기. 제목 Header &amp;lt;h1&amp;gt; 부터 &amp;lt;h6&amp;gt; 까지 변환 # 제목 h1 ## 제목 h2 ### 제목 h3 #### 제목 h4 ##### 제목 h5 ###### 제목 h6 이 블로그 본문에는 &amp;lt;h2&amp;gt;</description>
     </item>
     
   </channel>
