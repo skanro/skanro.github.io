@@ -29,7 +29,7 @@ footer a { color: #525252; }
 .menu { display: flex; list-style: none; margin: 0; padding: 0; }
 .menu li { margin-left: 20px; }
 
-.masonry { column-width: 240px; column-gap: 20px; width: 90%; margin: 20px auto;}
+.masonry { column-width: 240px; column-gap: 20px; margin: 20px auto;}
 
 .terms-tags { margin: 20px 0 0; padding: 30px; }
 .terms-tags a { display: inline-block; word-break: keep-all; padding: 2px 5px; margin: 0 5px 5px 0; }
@@ -52,3 +52,7 @@ article { background: #fff; }
 #content p > code { background: #d3e1e4; padding: 2px 5px; font-size: 0.9em; }
 #content a { text-decoration: underline; }
 #content h2 { margin-top: 30px; }
+
+@media screen and (max-width: 875px) { 
+    .container { margin: 0 20px; }
+}
