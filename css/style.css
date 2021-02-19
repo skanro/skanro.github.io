@@ -20,6 +20,7 @@ p { margin: 0 0 14px; }
 pre { margin: 0 0 14px; padding: 14px; font-size: 0.9em; overflow: auto; }
 
 main { margin: 0 20px; }
+header { margin: 0 0 20px; }
 footer { display: flex; height: 50px; justify-content: center; align-items: center; }
 footer a { color: #525252; }
 
@@ -29,7 +30,7 @@ footer a { color: #525252; }
 .menu { display: flex; list-style: none; margin: 0; padding: 0; }
 .menu li { margin-left: 20px; }
 
-.masonry { column-width: 240px; column-gap: 20px; margin: 20px auto;}
+.masonry { column-width: 240px; column-gap: 20px; }
 
 .terms-tags { margin: 20px 0 0; padding: 30px; }
 .terms-tags a { display: inline-block; word-break: keep-all; padding: 2px 5px; margin: 0 5px 5px 0; }
