@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-188582697-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.81.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    
+    <meta name="description" property="og:description" content="WSL 파일 경로 WSL2 리눅스에서 작업하는 경우 가장 빠른 성능을 달성하려면 파일을 WSL 파일시스템에 저장해야한다고 한다. \\wsl$ 파일탐색기로 바로 열기 현재 경로를 윈도우탐색">
+    
+
+    
+    
+    <title>WSL2 경로/ 파일 접근 방법 - skanro</title>
+</head><body><header>
+    <div class="header">
+        
+        <a href="/" class="brand un">skanro</a>
+        
+        <ul class="menu"><li><a href="/posts/">Posts</a></li><li><a href="/tags/">Tags</a></li><li><a href="/search/">Search</a></li></ul>
+    </div>
+</header><main class="container">
+    <article id="post">
+        <h1 class="title">WSL2 경로/ 파일 접근 방법</h1>
+        <p class="date">2021년 02월 20일</p> 
+        <div class="tags">
+<a href='/tags/wsl'>wsl</a>
+
+<a href='/tags/windows10'>windows10</a>
+</div>
+        <div id="content"><h2 id="wsl-파일-경로">WSL 파일 경로</h2>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/108590975-a7fd6180-73a9-11eb-8e32-40e182cf97af.png" alt="이미지 1">
+</p>
+<p>WSL2 리눅스에서 작업하는 경우 가장 빠른 성능을 달성하려면 파일을 WSL 파일시스템에 저장해야한다고 한다.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plaintext" data-lang="plaintext">\\wsl$
+</code></pre></div><h2 id="파일탐색기로-바로-열기">파일탐색기로 바로 열기</h2>
+<p>현재 경로를 윈도우탐색기로 바로 여는 방법도 있다.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">explorer.exe .
+</code></pre></div></div>
+        <div id="comment"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "skanro" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
+     </article>
+</main>
+<footer>
+    <span>Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a></span>
+</footer></body>
+</html>

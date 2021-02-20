@@ -3,30 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://skanro.kr/</loc>
-    <lastmod>2021-02-20T13:15:21+09:00</lastmod>
+    <lastmod>2021-02-20T18:27:31+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://skanro.kr/posts/</loc>
-    <lastmod>2021-02-20T13:15:21+09:00</lastmod>
+    <lastmod>2021-02-20T18:27:31+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://skanro.kr/search/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://skanro.kr/tags/linux/</loc>
-    <lastmod>2021-02-20T13:15:21+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://skanro.kr/tags/</loc>
-    <lastmod>2021-02-20T13:15:21+09:00</lastmod>
+    <lastmod>2021-02-20T18:27:31+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://skanro.kr/tags/windows10/</loc>
-    <lastmod>2021-02-20T13:15:21+09:00</lastmod>
+    <lastmod>2021-02-20T18:27:31+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://skanro.kr/tags/wsl/</loc>
+    <lastmod>2021-02-20T18:27:31+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://skanro.kr/posts/wsl2-explorer/</loc>
+    <lastmod>2021-02-20T18:27:31+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://skanro.kr/tags/linux/</loc>
     <lastmod>2021-02-20T13:15:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

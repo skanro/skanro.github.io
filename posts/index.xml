@@ -6,7 +6,16 @@
     <description>Recent content in Posts on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Feb 2021 13:15:21 +0900</lastBuildDate><atom:link href="https://skanro.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2021 18:27:31 +0900</lastBuildDate><atom:link href="https://skanro.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSL2 경로/ 파일 접근 방법</title>
+      <link>https://skanro.kr/posts/wsl2-explorer/</link>
+      <pubDate>Sat, 20 Feb 2021 18:27:31 +0900</pubDate>
+      
+      <guid>https://skanro.kr/posts/wsl2-explorer/</guid>
+      <description>WSL 파일 경로 WSL2 리눅스에서 작업하는 경우 가장 빠른 성능을 달성하려면 파일을 WSL 파일시스템에 저장해야한다고 한다. \\wsl$ 파일탐색기로 바로 열기 현재 경로를 윈도우탐색</description>
+    </item>
+    
     <item>
       <title>WSL2(Windows Subsystem for Linux2) 설치하기 </title>
       <link>https://skanro.kr/posts/wsl2-install/</link>
