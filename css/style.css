@@ -31,16 +31,16 @@ ul,
 ol {
   margin: 0 0 14px;
 }
-table {
+#post table {
   margin: 0 0 14px;
   width: 100%;
   border: 1px solid #f6f6f6;
 }
-th {
+#post th {
   background: #f6f6f6;
 }
-th,
-td {
+#post th,
+#post td {
   padding: 3px 6px;
   border: 1px solid #f6f6f6;
 }
