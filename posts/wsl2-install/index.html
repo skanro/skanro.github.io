@@ -51,7 +51,7 @@ if (!doNotTrack) {
 ARM64 시스템의 경우: 버전 2004 이상, 빌드 19041 이상<br>
 (버전 및 빌드 번호 확인 <strong>Windows 로고 키 + R</strong> 선택, <strong>winver</strong> 실행)</li>
 <li>CPU 가상화 지원 (작업관리자 성능탭에서 사용확인, Bios 에서 설정)</li>
-<li>관리자권한으로 실행 필수</li>
+<li>관리자권한으로 powershell 실행 필수</li>
 </ul>
 <p><a href="https://docs.microsoft.com/ko-kr/windows/wsl/install-win10">https://docs.microsoft.com/ko-kr/windows/wsl/install-win10</a></p>
 <h2 id="windows-10-wsl2-설치하기">Windows 10 WSL2 설치하기</h2>
@@ -59,11 +59,13 @@ ARM64 시스템의 경우: 버전 2004 이상, 빌드 19041 이상<br>
   <img src="https://user-images.githubusercontent.com/16831696/108583781-6fe12900-737f-11eb-9e3a-d4f924370f70.png" alt="1">
 </p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">dism.exe /online /<span style="color:#007020">enable-feature</span> /featurename<span style="">:</span>Microsoft-Windows-Subsystem-Linux /all /norestart
-</code></pre></div><p>
+</code></pre></div><p><strong>Linux용 Windows 하위 시스템</strong> 옵션 기능 사용 설정.</p>
+<p>
   <img src="https://user-images.githubusercontent.com/16831696/108583782-71aaec80-737f-11eb-8e0a-e17472abbe71.png" alt="3">
 </p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">dism.exe /online /<span style="color:#007020">enable-feature</span> /featurename<span style="">:</span>VirtualMachinePlatform /all /norestart
-</code></pre></div><p>
+</code></pre></div><p><strong>Virtual Machine 플랫폼</strong> 옵션 기능 사용 설정</p>
+<p>
   <img src="https://user-images.githubusercontent.com/16831696/108583887-2e9d4900-7380-11eb-9ac6-0181412abbb0.png" alt="2">
 </p>
 <p>마이크로소프트 스토어에서 우분투 설치하고 다시시작.</p>
@@ -77,7 +79,8 @@ ARM64 시스템의 경우: 버전 2004 이상, 빌드 19041 이상<br>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">wsl --set-default-version 2
 wsl --list --verbose
 wsl --set-version Ubuntu 2
-</code></pre></div><p>커널 업데이트가 필요할 시 <a href="https://docs.microsoft.com/ko-kr/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package" target="_blank" rel="noopener">링크</a> 에서 최신패키지 다운로드</p>
+</code></pre></div><p>WSL2 를 기본버전으로 설정, Linux 배포에 할당된 WSL 버전 확인, WSL 배포 버전 설정</p>
+<p>커널 업데이트가 필요할 시 <a href="https://docs.microsoft.com/ko-kr/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package" target="_blank" rel="noopener">링크</a> 에서 최신패키지 다운로드</p>
 <p>
   <img src="https://user-images.githubusercontent.com/16831696/108583967-dca8f300-7380-11eb-88a9-3ac46b1322d6.png" alt="8">
 </p>
