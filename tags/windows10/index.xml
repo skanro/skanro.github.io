@@ -6,7 +6,16 @@
     <description>Recent content in windows10 on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 01 Feb 2021 22:34:19 +0900</lastBuildDate><atom:link href="https://skanro.kr/tags/windows10/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2021 13:15:21 +0900</lastBuildDate><atom:link href="https://skanro.kr/tags/windows10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSL2(Windows Subsystem for Linux2) 설치하기 </title>
+      <link>https://skanro.kr/posts/wsl2-install/</link>
+      <pubDate>Sat, 20 Feb 2021 13:15:21 +0900</pubDate>
+      
+      <guid>https://skanro.kr/posts/wsl2-install/</guid>
+      <description>설치하기 전 x64 시스템의 경우: 버전 1903 이상, 빌드 18362 이상 ARM64 시스템의 경우: 버전 2004 이상, 빌드 19041 이상 (버전 및 빌드 번호 확인 Windows 로고 키 + R 선택, winver 실행) CPU 가상화</description>
+    </item>
+    
     <item>
       <title>윈도우10에 hugo 설치하기</title>
       <link>https://skanro.kr/posts/hugo-windows/</link>

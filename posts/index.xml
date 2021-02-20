@@ -6,7 +6,16 @@
     <description>Recent content in Posts on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 13 Feb 2021 19:15:37 +0900</lastBuildDate><atom:link href="https://skanro.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2021 13:15:21 +0900</lastBuildDate><atom:link href="https://skanro.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSL2(Windows Subsystem for Linux2) 설치하기 </title>
+      <link>https://skanro.kr/posts/wsl2-install/</link>
+      <pubDate>Sat, 20 Feb 2021 13:15:21 +0900</pubDate>
+      
+      <guid>https://skanro.kr/posts/wsl2-install/</guid>
+      <description>설치하기 전 x64 시스템의 경우: 버전 1903 이상, 빌드 18362 이상 ARM64 시스템의 경우: 버전 2004 이상, 빌드 19041 이상 (버전 및 빌드 번호 확인 Windows 로고 키 + R 선택, winver 실행) CPU 가상화</description>
+    </item>
+    
     <item>
       <title>깃허브페이지 개인도메인 연결하기</title>
       <link>https://skanro.kr/posts/githubpage-domain/</link>
@@ -85,7 +94,7 @@
       <pubDate>Mon, 30 Nov 2020 00:46:41 +0900</pubDate>
       
       <guid>https://skanro.kr/posts/first-post/</guid>
-      <description>https://skanro.github.io https://skanro.kr 커스텀 도메인 연결 소개 이 블로그는 hugo 정적사이트생성기와 GihubPage 로 생성됩니다. 관리는 구름IDE로 하고 있습니다. 이미지는 깃허브저장소 issue 로 업로드합니다.</description>
+      <description>https://skanro.github.io https://skanro.kr 커스텀 도메인 연결 소개 이 블로그는 hugo 정적사이트생성기와 GihubPage 로 생성됩니다. 관리는 구름IDE로 하고 있습니다. windows10 wsl2 이미지는 깃허브저장소 issue 로 업로드합니</description>
     </item>
     
   </channel>

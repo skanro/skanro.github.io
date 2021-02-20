@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-188582697-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.81.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    
+    <meta name="description" property="og:description" content="설치하기 전 x64 시스템의 경우: 버전 1903 이상, 빌드 18362 이상 ARM64 시스템의 경우: 버전 2004 이상, 빌드 19041 이상 (버전 및 빌드 번호 확인 Windows 로고 키 &#43; R 선택, winver 실행) CPU 가상화">
+    
+
+    
+    
+    <title>WSL2(Windows Subsystem for Linux2) 설치하기  - skanro</title>
+</head><body><header>
+    <div class="header">
+        
+        <a href="/" class="brand un">skanro</a>
+        
+        <ul class="menu"><li><a href="/posts/">Posts</a></li><li><a href="/tags/">Tags</a></li><li><a href="/search/">Search</a></li></ul>
+    </div>
+</header><main class="container">
+    <article id="post">
+        <h1 class="title">WSL2(Windows Subsystem for Linux2) 설치하기 </h1>
+        <p class="date">2021년 02월 20일</p> 
+        <div class="tags">
+<a href='/tags/windows10'>windows10</a>
+
+<a href='/tags/wsl'>wsl</a>
+
+<a href='/tags/linux'>linux</a>
+</div>
+        <div id="content"><h2 id="설치하기-전">설치하기 전</h2>
+<ul>
+<li>x64 시스템의 경우: 버전 1903 이상, 빌드 18362 이상<br>
+ARM64 시스템의 경우: 버전 2004 이상, 빌드 19041 이상<br>
+(버전 및 빌드 번호 확인 <strong>Windows 로고 키 + R</strong> 선택, <strong>winver</strong> 실행)</li>
+<li>CPU 가상화 지원 (작업관리자 성능탭에서 사용확인, Bios 에서 설정)</li>
+<li>관리자권한으로 실행 필수</li>
+</ul>
+<p><a href="https://docs.microsoft.com/ko-kr/windows/wsl/install-win10">https://docs.microsoft.com/ko-kr/windows/wsl/install-win10</a></p>
+<h2 id="windows-10-wsl2-설치하기">Windows 10 WSL2 설치하기</h2>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/108583781-6fe12900-737f-11eb-9e3a-d4f924370f70.png" alt="1">
+</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">dism.exe /online /<span style="color:#007020">enable-feature</span> /featurename<span style="">:</span>Microsoft-Windows-Subsystem-Linux /all /norestart
+</code></pre></div><p>
+  <img src="https://user-images.githubusercontent.com/16831696/108583782-71aaec80-737f-11eb-8e0a-e17472abbe71.png" alt="3">
+</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">dism.exe /online /<span style="color:#007020">enable-feature</span> /featurename<span style="">:</span>VirtualMachinePlatform /all /norestart
+</code></pre></div><p>
+  <img src="https://user-images.githubusercontent.com/16831696/108583887-2e9d4900-7380-11eb-9ac6-0181412abbb0.png" alt="2">
+</p>
+<p>마이크로소프트 스토어에서 우분투 설치하고 다시시작.</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/108583901-4d9bdb00-7380-11eb-8eaf-088811cc1631.png" alt="5">
+</p>
+<p>우분투 사용자 이름 비밀번호 설정.</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/108583936-88057800-7380-11eb-8b3c-0829434de2fe.png" alt="10">
+</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">wsl --set-default-version 2
+wsl --list --verbose
+wsl --set-version Ubuntu 2
+</code></pre></div><p>커널 업데이트가 필요할 시 <a href="https://docs.microsoft.com/ko-kr/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package" target="_blank" rel="noopener">링크</a> 에서 최신패키지 다운로드</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/16831696/108583967-dca8f300-7380-11eb-88a9-3ac46b1322d6.png" alt="8">
+</p>
+</div>
+        <div id="comment"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "skanro" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
+     </article>
+</main>
+<footer>
+    <span>Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a></span>
+</footer></body>
+</html>
