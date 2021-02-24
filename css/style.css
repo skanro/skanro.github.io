@@ -183,7 +183,7 @@ article {
   padding: 30px;
 }
 #post .title {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bold;
 }
 #post .date {
@@ -203,6 +203,7 @@ article {
   background: #d3e1e4;
   padding: 2px 5px;
   font-size: 0.9em;
+  color: #214e3e;
 }
 #content a {
   text-decoration: underline;
