@@ -217,3 +217,13 @@ article {
     margin: 0 20px;
   }
 }
+.gsc-control-cse {
+  padding: 30px !important;
+}
+table.gsc-search-box td.gsc-input {
+  padding-right: 5px !important;
+}
+.gsc-search-button-v2 {
+  border-radius: 0 !important;
+  height: 36px;
+}
