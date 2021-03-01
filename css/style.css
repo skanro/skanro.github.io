@@ -227,3 +227,6 @@ table.gsc-search-box td.gsc-input {
   border-radius: 0 !important;
   height: 36px;
 }
+.gsc-selected-option-container {
+  border-radius: 0 !important;
+}
