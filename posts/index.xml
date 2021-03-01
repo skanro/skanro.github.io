@@ -6,7 +6,16 @@
     <description>Recent content in Posts on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Feb 2021 18:27:31 +0900</lastBuildDate><atom:link href="https://skanro.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Mar 2021 00:12:09 +0900</lastBuildDate><atom:link href="https://skanro.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>이미지 클릭으로 새창 원본이미지 보기</title>
+      <link>https://skanro.kr/posts/image-blank-link/</link>
+      <pubDate>Tue, 02 Mar 2021 00:12:09 +0900</pubDate>
+      
+      <guid>https://skanro.kr/posts/image-blank-link/</guid>
+      <description>티스토리 블로그 쓸 때 이미지 클릭시 새창으로 원본이미지 보는방법 원본이미지 사이즈에 맞게 새창으로 여는방법 &amp;lt;img src=&amp;#34;이미지링크&amp;#34; onclick=&amp;#34;window.open(this.src,&amp;#39;info&amp;#39;,&amp;#39;width=&amp;#39;+this.naturalWidth+&amp;#39; height=&amp;#39;+this.naturalHeight+&amp;#39; menubar=no</description>
+    </item>
+    
     <item>
       <title>WSL2 경로/ 파일 접근 방법</title>
       <link>https://skanro.kr/posts/wsl2-explorer/</link>

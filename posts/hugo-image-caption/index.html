@@ -49,10 +49,16 @@ if (!doNotTrack) {
 <p>hugo 블로그에서 마크다운으로 이미지 타이틀 속성을 입력하면 이미지캡션을 보여주는 방법이다.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">![<span style="color:#062873;font-weight:bold">텍스트</span>](<span style="color:#4070a0">이미지주소 &#34;타이틀&#34;</span>)
 </code></pre></div><p>
-  <figure>
-    <img src="https://user-images.githubusercontent.com/16831696/107706270-61ea3300-6d03-11eb-8205-2693880a8fd2.jpg" alt="apple-3981097_1280">
-    <figcaption>타이틀 캡션 테스트 텍스트</figcaption>
-  </figure>
+<figure>
+  <img
+    src="https://user-images.githubusercontent.com/16831696/107706270-61ea3300-6d03-11eb-8205-2693880a8fd2.jpg"
+    alt="apple-3981097_1280"
+    onclick="window.open(this.src,'info','width='+this.naturalWidth+' height='+this.naturalHeight+' menubar=no status=no toolbar=no location=no'); return false;"
+    style="cursor: pointer"
+  />
+  <figcaption>타이틀 캡션 테스트 텍스트</figcaption>
+</figure>
+
 </p>
 <p>위와 같이 이미지에 타이틀 속성을 넣을 수 있다.</p>
 <h2 id="render_imagehtml">render_image.html</h2>

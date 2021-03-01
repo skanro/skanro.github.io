@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-188582697-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.81.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    
+    <meta name="description" property="og:description" content="티스토리 블로그 쓸 때 이미지 클릭시 새창으로 원본이미지 보는방법 원본이미지 사이즈에 맞게 새창으로 여는방법 &amp;lt;img src=&amp;#34;이미지링크&amp;#34; onclick=&amp;#34;window.open(this.src,&amp;#39;info&amp;#39;,&amp;#39;width=&amp;#39;&#43;this.naturalWidth&#43;&amp;#39; height=&amp;#39;&#43;this.naturalHeight&#43;&amp;#39; menubar=no">
+    
+
+    
+    
+    <title>이미지 클릭으로 새창 원본이미지 보기 - skanro</title>
+</head><body><header>
+    <div class="header">
+        
+        <a href="/" class="brand un">skanro</a>
+        
+        <ul class="menu"><li><a href="/posts/">Posts</a></li><li><a href="/tags/">Tags</a></li><li><a href="/search/">Search</a></li></ul>
+    </div>
+</header><main class="container">
+    <article id="post">
+        <h1 class="title">이미지 클릭으로 새창 원본이미지 보기</h1>
+        <p class="date">2021년 03월 02일</p> 
+        <div class="tags"></div>
+        <div id="content"><p>티스토리 블로그 쓸 때 이미지 클릭시 새창으로 원본이미지 보는방법</p>
+<h2 id="원본이미지-사이즈에-맞게-새창으로-여는방법">원본이미지 사이즈에 맞게 새창으로 여는방법</h2>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#062873;font-weight:bold">img</span>
+  <span style="color:#4070a0">src</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;이미지링크&#34;</span>
+  <span style="color:#4070a0">onclick</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;window.open(this.src,&#39;info&#39;,&#39;width=&#39;+this.naturalWidth+&#39; height=&#39;+this.naturalHeight+&#39; menubar=no status=no toolbar=no location=no&#39;); return false;&#34;</span>
+  <span style="color:#4070a0">style</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;cursor:pointer;&#34;</span>
+/&gt;
+</code></pre></div><h2 id="사이즈-상관없이-새탭으로-열기">사이즈 상관없이 새탭으로 열기</h2>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#062873;font-weight:bold">a</span> <span style="color:#4070a0">href</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;이미지경로&#34;</span> <span style="color:#4070a0">target</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;\_blank&#34;</span>&gt;
+  &lt;<span style="color:#062873;font-weight:bold">img</span> <span style="color:#4070a0">src</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;이미지경로&#34;</span> <span style="color:#4070a0">alt</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Text }}&#34;</span> /&gt;
+&lt;/<span style="color:#062873;font-weight:bold">a</span>&gt;
+</code></pre></div><h2 id="hugo-블로그에서-적용하는-방법">hugo 블로그에서 적용하는 방법</h2>
+<p><code>layouts\_default\_markup</code> 경로에 <code>render-image.html</code> 파일을 만들고</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#062873;font-weight:bold">img</span> <span style="color:#4070a0">src</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Destination | safeURL }}&#34;</span> <span style="color:#4070a0">alt</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Text }}&#34;</span> /&gt;
+</code></pre></div><p>위 방법에 맞게 html를 수정해서 쓴다.</p>
+</div>
+        <div id="comment"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "skanro" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
+     </article>
+</main>
+<footer>
+    <span>Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="/">skanro</a></span>
+</footer></body>
+</html>
