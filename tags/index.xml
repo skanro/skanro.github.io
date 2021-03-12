@@ -6,7 +6,25 @@
     <description>Recent content in Tags on skanro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 20 Feb 2021 18:27:31 +0900</lastBuildDate><atom:link href="https://skanro.kr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Mar 2021 00:12:09 +0900</lastBuildDate><atom:link href="https://skanro.kr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>새창</title>
+      <link>https://skanro.kr/tags/%EC%83%88%EC%B0%BD/</link>
+      <pubDate>Tue, 02 Mar 2021 00:12:09 +0900</pubDate>
+      
+      <guid>https://skanro.kr/tags/%EC%83%88%EC%B0%BD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>이미지</title>
+      <link>https://skanro.kr/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</link>
+      <pubDate>Tue, 02 Mar 2021 00:12:09 +0900</pubDate>
+      
+      <guid>https://skanro.kr/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>windows10</title>
       <link>https://skanro.kr/tags/windows10/</link>
@@ -76,15 +94,6 @@
       <pubDate>Fri, 12 Feb 2021 04:20:42 +0900</pubDate>
       
       <guid>https://skanro.kr/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>이미지</title>
-      <link>https://skanro.kr/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</link>
-      <pubDate>Fri, 12 Feb 2021 04:20:42 +0900</pubDate>
-      
-      <guid>https://skanro.kr/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</guid>
       <description></description>
     </item>
     

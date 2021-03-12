@@ -14,12 +14,20 @@
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://skanro.kr/posts/image-blank-link/</loc>
+    <loc>https://skanro.kr/tags/</loc>
     <lastmod>2021-03-02T00:12:09+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://skanro.kr/tags/</loc>
-    <lastmod>2021-02-20T18:27:31+09:00</lastmod>
+    <loc>https://skanro.kr/tags/%EC%83%88%EC%B0%BD/</loc>
+    <lastmod>2021-03-02T00:12:09+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://skanro.kr/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</loc>
+    <lastmod>2021-03-02T00:12:09+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://skanro.kr/posts/image-blank-link/</loc>
+    <lastmod>2021-03-02T00:12:09+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://skanro.kr/tags/windows10/</loc>
@@ -71,10 +79,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://skanro.kr/posts/hugo-image-caption/</loc>
-    <lastmod>2021-02-12T04:20:42+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://skanro.kr/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80/</loc>
     <lastmod>2021-02-12T04:20:42+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
