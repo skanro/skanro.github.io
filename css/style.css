@@ -91,7 +91,7 @@ footer a {
 }
 .container {
   margin: 0 auto;
-  max-width: 835px;
+  max-width: 935px;
 }
 .header {
   display: flex;
@@ -212,7 +212,7 @@ article {
   margin-top: 30px;
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 975px) {
   .container {
     margin: 0 20px;
   }
